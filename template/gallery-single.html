@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% block body %}
+<head><title>Khushi's Gallery</title></head>
+
+
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2>Khushi's Gallery</h2>
+            <p class="fst-italic py-3 justify-content-center" >"To me, photography is an art of observation. It's about finding something interesting in an ordinary place... I've found it has little to do with the things you see and everything to do with the way you see them." - Elliott Erwitt</p>
+
+            <a class="cta-btn" href="/book" target="_blank">Available for hire</a>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= Gallery Single Section ======= -->
+    <section id="gallery-single" class="gallery-single">
+      <div class="container">
+
+        <div class="position-relative h-100">
+          <div class="slides-1 portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="{{url_for('static',filename='assets/img/gallery/gallery-45.jpg')}}" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="{{url_for('static',filename='assets/img/gallery/gallery-9.jpg')}}" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="{{url_for('static',filename='assets/img/gallery/gallery-30.jpg')}}" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="{{url_for('static',filename='assets/img/gallery/gallery-8.jpg')}}" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="{{url_for('static',filename='assets/img/gallery/gallery-21.jpg')}}" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="{{url_for('static',filename='assets/img/gallery/gallery-10.jpg')}}" alt="">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-description">
+              <h2>What is Professional Photograpy?</h2>
+              <p align="justify">
+                Photography is an art form that captures moments in time, freezing them forever in a single image. Whether it's a stunning landscape, a portrait of a loved one, or an abstract piece of art, photography has the power to evoke emotions and tell stories. Through the use of light, shadow, color, and composition, photographers can create images that are both beautiful and meaningful.  </p>
+              <p align="justify">
+                Photography has been a popular medium for over a century, and with the advent of digital technology, it has become more accessible than ever before. From amateur enthusiasts to professional artists, photography has something to offer for everyone.             
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Photography is the only language that can be understood anywhere in the world.                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+                  <h3>Khushi Rani</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+
+              <p align="justify">
+                Professional photography is a specialized field that requires skill, creativity, and technical expertise. Professional photographers use their knowledge and experience to capture high-quality images that meet the specific needs of their clients. Whether it's a wedding, a commercial campaign, or a portrait session, professional photographers work closely with their clients to understand their vision and bring it to life. They use a variety of techniques and equipment to produce images that are aesthetically pleasing and technically sound.              </p>
+
+              <p align="justify">
+                Professional photography also involves post-production work, where images are edited and refined to achieve the desired result. With a focus on quality and professionalism, professional photographers are able to create images that stand out and leave a lasting impression.              </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> <span>Photography</span></li>
+                <li><strong>Client</strong> <span>The Frame of Reference</span></li>
+                <li><strong>Project date</strong> <span>01 March, 2023</span></li>
+                <li><strong>Project URL</strong> <a href="#">www.frameofreference.com</a></li>
+                <li><a href="/" class="btn-visit align-self-start">Visit Website</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Single Section -->
+
+  </main><!-- End #main -->
+{%endblock%}

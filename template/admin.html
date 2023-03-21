@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block body %}
+<head><title>Admin</title></head>
+
+<body class="text-center">
+    <br><br><br><br>
+    
+    <main id="main" data-aos="fade" data-aos-delay="1500">
+
+        <div class="row justify-content-center mt-4">
+
+            <div class="col-lg-4">
+      
+                <form action="/admin" method="post" role="form" class="html-email-form">
+        <img src="{{url_for ('static',filename='assets/img/apple-touch-icon.png') }}" alt=""  width="250" height="250" rel="apple-touch-icon">
+        <h1 class="h3 mb-3 fw-normal">Admin Login</h1>
+    
+        
+
+          <div class="form-group mt-3">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+            
+          </div>
+          <br>
+          <div class="form-group mt 3">
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+          </div>
+
+        
+    <br>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+      
+        <button class="w-100 btn btn-lg btn-info" type="submit">Sign in</button>
+      </form>
+    </main>
+    
+     </div><!-- End Contact Form -->
+
+        </div>
+
+    
+        
+      </body>
+      <br><br><br><br><br><br><br>
+
+{%endblock%}

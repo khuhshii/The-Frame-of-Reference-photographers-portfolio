@@ -1,0 +1,163 @@
+{% extends "layout.html" %}
+{% block body %}
+<head><title>About Us</title></head>
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2>About Us</h2>
+            <p class="fst-italic py-3 justify-content-center" >Our photography services offer a range of options to meet your specific needs. We specialize in capturing moments that matter, from weddings and events to family portraits and headshots.</p>
+
+            <a class="cta-btn" href="/book" target="_blank">Available for hire</a>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="{{url_for('static',filename='assets/img/profile-img.jpg')}}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 content">
+            <h2>Professional Photographer from Bengaluru</h2>
+            <p class="fst-italic py-3 justify-content-center" align="justify">
+              For events, we offer both candid and posed shots to capture the essence of your special day. Our portrait sessions are personalized to your style and preferences, whether you prefer natural light or studio settings. 
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Khushi Rani</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>theframeoref@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9955581197</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bengaluru, Karnataka</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.E.</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Hobby:</strong> <span>Photography</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3 justify" align="justify">
+
+              We also offer commercial photography services for businesses, including product photography, marketing campaigns, and corporate events.
+
+            </p>
+            <p class="m-0 justify" align="justify">
+
+              After your session, we offer post-production services to edit and refine your images. We provide high-quality prints and digital files for your convenience, and we also offer custom framing and album design services. We are committed to providing exceptional customer service and ensuring that you are completely satisfied with your photography experience.
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>What they are saying</p>
+        </div>
+
+        <div class="slides-3 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Absolutely stunning photos, captured our wedding day perfectly. Professional, personable, and highly recommended for family portraits."                </p>
+                <div class="profile mt-auto">
+                  <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+                  <h3>Anushka Sinha</h3>
+                  <h4>First Customer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "The commercial photos for our business were top-notch, highly impressed with the quality."                </p>
+                <div class="profile mt-auto">
+                  <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-6.jpg')}}" class="testimonial-img" alt="">
+                  <h3>Nikhil Kumar</h3>
+                  <h4>Freelancer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Beautiful headshots, highly recommended for anyone looking for professional images."                </p>
+                <div class="profile mt-auto">
+                  <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+                  <h3>Varsha M</h3>
+                  <h4>Happy Customer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Great experience from start to finish, highly recommend for any event photography needs."                </p>
+                <div class="profile mt-auto">
+                  <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+                  <h3>Raj Harsh</h3>
+                  <h4>Freelancer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Working with this photography team was a dream. Their attention to detail and creative eye made for some truly unforgettable images. Highly recommend for any photography needs."                </p>
+                <div class="profile mt-auto">
+                  <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+                  <h3>Vishnu Ojha</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+ {% endblock %}

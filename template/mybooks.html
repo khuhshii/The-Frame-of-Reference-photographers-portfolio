@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+{% block body %}
+<head><title>Bookings</title></head>
+<body>    
+    <section id="ucs" class="ucs">
+        <div class="container" data-aos="zoom-in">
+  
+  <div class="page-header d-flex align-items-center">
+            <div class="container position-relative">
+              <div class="row d-flex justify-content-center">
+  
+          <div class="text-center">
+            <h2>Active Bookings</h2>
+            
+          </div>
+  
+   </div>
+      </div>
+    </div>
+  
+        </div>
+    
+
+      <br>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">Book Code</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Occasion</th>
+      <th scope="col">Date</th>
+      <th scope="col">No. of Days</th>
+      <th scope="col">Address</th>
+      <th scope="col">Message</th>
+      <th scope="col">Date of request</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for book in active %}
+      <tr>
+        <th scope="row">{{book.sno}}</th>
+        <td>{{book.book_code}}</td>
+        <td>{{book.name}}</td>
+        <td>{{book.email}}</td>
+        <td>{{book.occasion}}</td>
+        <td>{{book.date}}</td>
+        <td>{{book.no_of_days}}</td>
+        <td>{{book.address}}</td>
+        <td>{{book.message}}</td>
+        <td>{{book.date_of_req}}</td>
+        <td><a href="/delete/{{book.sno}}"" class="btn btn-info" role="button">Delete</a></td>
+      </tr>
+
+      {% endfor %}
+  </tbody>
+</table>
+      <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              
+              <a href="/mysec" class="btn-get-started">Back</a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  </body>
+
+
+{%endblock%}

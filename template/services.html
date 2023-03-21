@@ -1,0 +1,224 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<head><title>Sevices</title></head>
+
+
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>Services</h2>
+            <p class="fst-italic py-3 justify-content-center" >
+              A photograph is a secret about a secret. The more it tells you, the less you know.  </p>
+
+            <a class="cta-btn" href="/more" target="_blank">For Details</a>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-activity"></i>
+              <h4><a href="" class="stretched-link">High Quality Pictures</a></h4>
+              <p>Crafted with precision, captured with passion</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <!--<i class="bi bi-bounding-box-circles"></i>-->
+              <i class="fa-solid fa-indian-rupee-sign"></i>
+                            <h4><a href="" class="stretched-link">Reasonable Pricing</a></h4>
+              <p>Professional photography, without the premium price</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="" class="stretched-link">Fast Service</a></h4>
+              <p>Fast service, without sacrificing quality</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <!--<i class="bi bi-broadcast"></i>-->
+              <i class="fa-regular fa-face-laugh-beam"></i>
+              <h4><a href="" class="stretched-link">Versatility</a></h4>
+              <p>Adaptable photography that fits your needs</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Prices</h2>
+          <p>Check our pricing<h6>(per hour)</h6></p>
+        </div>
+
+        <div class="row gy-4 gx-lg-5">
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Portrait Photography</h3>
+              <h4>Rs.1600.00</h4>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Fashion Photography</h3>
+              <h4>Rs.3000.00</h4>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Sports Photography</h3>
+              <h4>Rs. 2000.00</h4>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Still Life Photography</h3>
+              <h4>Rs. 1200.00</h4>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Wedding Photography</h3>
+              <h4>Rs.5000.00</h4>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Photojournalism</h3>
+              <h4>Rs.2000.00</h4>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+    </section><!-- End Pricing Section -->
+   
+
+<!-- ======= Testimonials Section ======= -->
+<section id="testimonials" class="testimonials">
+  <div class="container">
+
+    <div class="section-header">
+      <h2>Testimonials</h2>
+      <p>What they are saying</p>
+    </div>
+
+    <div class="slides-3 swiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "Absolutely stunning photos, captured our wedding day perfectly. Professional, personable, and highly recommended for family portraits."                </p>
+            <div class="profile mt-auto">
+              <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+              <h3>Anushka Sinha</h3>
+              <h4>First Customer</h4>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "The commercial photos for our business were top-notch, highly impressed with the quality."                </p>
+            <div class="profile mt-auto">
+              <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-6.jpg')}}" class="testimonial-img" alt="">
+              <h3>Nikhil Kumar</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "Beautiful headshots, highly recommended for anyone looking for professional images."                </p>
+            <div class="profile mt-auto">
+              <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+              <h3>Varsha M</h3>
+              <h4>Happy Customer</h4>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "Great experience from start to finish, highly recommend for any event photography needs."                </p>
+            <div class="profile mt-auto">
+              <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+              <h3>Raj Harsh</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "Working with this photography team was a dream. Their attention to detail and creative eye made for some truly unforgettable images. Highly recommend for any photography needs."                </p>
+            <div class="profile mt-auto">
+              <img src="{{url_for('static',filename='assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+              <h3>Vishnu Ojha</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+  {%endblock%}
