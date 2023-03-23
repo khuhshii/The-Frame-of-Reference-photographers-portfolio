@@ -1,4 +1,4 @@
-# The-Frame-of-Referephotographers-portfolio
+# The-Frame-of-Reference-photographers-portfolio
 Front-end: HTML,CSS ; Back-end: Python(Flask framework) ; and phpMyAdmin is used in the completion of this project.
 ![index](https://user-images.githubusercontent.com/116865740/226648586-1b333ae0-18ff-4f7d-8061-2dba60b23918.png)
 ![gsingle](https://user-images.githubusercontent.com/116865740/226649029-6a53a9b0-fb30-4f53-87ac-9b54357ac140.png)
